@@ -1,0 +1,41 @@
+{
+  "modelName": "texture",
+  "name": "instagram-10",
+  "identifier": "texture:26548-af1908b2-4186-45f0-96d0-156722f78eae",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "122f4374a0eec9d5caf94ff69f016550",
+  "assetLocator": "textures/instagram-10.png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "exportConfigurations": [
+    "textureExportConfig:29414-af1908b2-4186-45f0-96d0-156722f78eae",
+    "textureExportConfig:29470-af1908b2-4186-45f0-96d0-156722f78eae",
+    "textureExportConfig:29526-af1908b2-4186-45f0-96d0-156722f78eae"
+  ],
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 600,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 800,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "122f4374a0eec9d5caf94ff69f016550",
+      "colorCount": 24,
+      "detectedAlphaChannel": "no_alpha",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 4.428946016857238,
+      "pixelsHigh": 600,
+      "pixelsWide": 800
+    }
+  ]
+}
