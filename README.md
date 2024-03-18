@@ -2,7 +2,15 @@
 
 ## Project Description
 
-This project contains a series of augmented reality (AR) enhancements for posters, created using Meta Spark Studio. The repository is organised into twelve folders, 10 of which (named "Poster xyz AR") correspond to a specific poster project file. These folders include all necessary assets such as textures, materials, and the `.arproj` project files.
+The repository is organized into twelve folders, with ten of these folders named according to their corresponding poster project ("Poster xyz AR"). Each project folder is comprehensive, containing all the essential assets required to recreate or modify the AR experience. These assets include textures, materials, and the .arproj Meta Spark Studio project files.
+
+### Key Folders:
+
+- **Poster xyz AR**: Each folder corresponds to a specific poster and contains all necessary files to engage with the AR project. Replace "xyz" with the poster name.
+
+- **Poster images**: This folder contains the original, "pre-AR" versions of the posters. It serves as a visual reference for the posters before AR enhancements are applied.
+
+- **Posters and Augmentations in PPT Format**: For those looking to customise or edit the posters, this folder provides PowerPoint (PPT) files. These files are designed for easy editing, allowing you to tailor the poster designs to your preferences.
 
 ## Build Instructions
 
