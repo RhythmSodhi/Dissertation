@@ -1,0 +1,128 @@
+{
+  "id": "22a783abb57074be2b6e12341c3e72997",
+  "revision": "14835397b50f291e24132ae2fc81d6c833338",
+  "version": {
+    "dev": 0,
+    "patch": 0,
+    "prod": 175
+  },
+  "creatorIdentifier": "com.facebook.arstudio.skylight",
+  "creatorPlatform": "macosx",
+  "creatorFileVersion": {
+    "dev": 0,
+    "patch": 0,
+    "prod": 175
+  },
+  "visual_programming": {
+    "connections": [
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:46702-2a783abb-5707-4be2-b6e1-2341c3e72997",
+        "fromPatch": "producer_patch_model:46120-2a783abb-5707-4be2-b6e1-2341c3e72997",
+        "fromPort": "100",
+        "toPatch": "template_patch_model:46700-2a783abb-5707-4be2-b6e1-2341c3e72997",
+        "toPort": "1"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:47288-2a783abb-5707-4be2-b6e1-2341c3e72997",
+        "fromPatch": "template_patch_model:46700-2a783abb-5707-4be2-b6e1-2341c3e72997",
+        "fromPort": "100",
+        "toPatch": "template_patch_model:47286-2a783abb-5707-4be2-b6e1-2341c3e72997",
+        "toPort": "1"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:47292-2a783abb-5707-4be2-b6e1-2341c3e72997",
+        "fromPatch": "template_patch_model:47286-2a783abb-5707-4be2-b6e1-2341c3e72997",
+        "fromPort": "100",
+        "toPatch": "consumer_patch_model:47290-2a783abb-5707-4be2-b6e1-2341c3e72997",
+        "toPort": "101"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:52255-2a783abb-5707-4be2-b6e1-2341c3e72997",
+        "fromPatch": "template_patch_model:47286-2a783abb-5707-4be2-b6e1-2341c3e72997",
+        "fromPort": "100",
+        "toPatch": "consumer_patch_model:52253-2a783abb-5707-4be2-b6e1-2341c3e72997",
+        "toPort": "1"
+      }
+    ],
+    "graphs": [
+      {
+        "modelName": "patch_graph",
+        "identifier": "patch_graph:94-2a783abb-5707-4be2-b6e1-2341c3e72997",
+        "subpatches": [
+          "consumer_patch_model:47290-2a783abb-5707-4be2-b6e1-2341c3e72997",
+          "consumer_patch_model:52253-2a783abb-5707-4be2-b6e1-2341c3e72997",
+          "producer_patch_model:46120-2a783abb-5707-4be2-b6e1-2341c3e72997",
+          "template_patch_model:46700-2a783abb-5707-4be2-b6e1-2341c3e72997",
+          "template_patch_model:47286-2a783abb-5707-4be2-b6e1-2341c3e72997"
+        ]
+      }
+    ],
+    "patches": [
+      {
+        "modelName": "consumer_patch_model",
+        "name": "video poster",
+        "identifier": "consumer_patch_model:47290-2a783abb-5707-4be2-b6e1-2341c3e72997",
+        "object": "plane:433-2a783abb-5707-4be2-b6e1-2341c3e72997",
+        "objectProperty": "visible",
+        "position": [
+          571.1988967054997,
+          229.6957640830392
+        ],
+        "values": [
+          {
+            "port": "101",
+            "value": {
+              "t": "bool",
+              "v": true
+            }
+          }
+        ]
+      },
+      {
+        "modelName": "consumer_patch_model",
+        "name": "audioPlaybackController0",
+        "identifier": "consumer_patch_model:52253-2a783abb-5707-4be2-b6e1-2341c3e72997",
+        "object": "playback_controller_model:50457-2a783abb-5707-4be2-b6e1-2341c3e72997",
+        "objectProperty": "audio_playback_controller_play",
+        "position": [
+          572,
+          356
+        ]
+      },
+      {
+        "modelName": "producer_patch_model",
+        "name": "tap here",
+        "identifier": "producer_patch_model:46120-2a783abb-5707-4be2-b6e1-2341c3e72997",
+        "object": "plane:24877-2a783abb-5707-4be2-b6e1-2341c3e72997",
+        "position": [
+          -40.62331771850586,
+          213.8462371826172
+        ]
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Object Tap",
+        "identifier": "template_patch_model:46700-2a783abb-5707-4be2-b6e1-2341c3e72997",
+        "position": [
+          169.0015758903155,
+          241.09719898089656
+        ],
+        "templateId": "builtin.sceneObjectTapGesture"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Switch",
+        "identifier": "template_patch_model:47286-2a783abb-5707-4be2-b6e1-2341c3e72997",
+        "position": [
+          406.53539419973436,
+          266.68721430959977
+        ],
+        "templateId": "builtin.toggle"
+      }
+    ]
+  }
+}
