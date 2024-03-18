@@ -1,0 +1,515 @@
+{
+  "modelName": "scene",
+  "identifier": "scene:18-075e0928-f265-4300-9fb0-b80eaa7fda8c",
+  "animationMask": {
+    "position": false,
+    "rotation": false,
+    "scale": false
+  },
+  "cameraVisibility": "back|front",
+  "hidden": false,
+  "outputVisibility": "preview|capture",
+  "physicsEnabled": false,
+  "tags": [],
+  "transform": {
+    "rx": 0,
+    "ry": 0,
+    "rz": 0,
+    "sx": 1,
+    "sy": 1,
+    "sz": 1,
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "children": [
+    {
+      "modelName": "device",
+      "name": "Device",
+      "identifier": "device:78-075e0928-f265-4300-9fb0-b80eaa7fda8c",
+      "animationMask": {
+        "position": false,
+        "rotation": false,
+        "scale": false
+      },
+      "cameraVisibility": "back|front",
+      "hidden": false,
+      "layerIdentifier": "layer0",
+      "outputVisibility": "preview|capture",
+      "physicsEnabled": false,
+      "tags": [],
+      "transform": {
+        "rx": 0,
+        "ry": 0,
+        "rz": 0,
+        "sx": 1,
+        "sy": 1,
+        "sz": 1,
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "children": [
+        {
+          "modelName": "camera",
+          "name": "Camera",
+          "identifier": "camera:80-075e0928-f265-4300-9fb0-b80eaa7fda8c",
+          "animationMask": {
+            "position": false,
+            "rotation": false,
+            "scale": false
+          },
+          "cameraVisibility": "back|front",
+          "hidden": false,
+          "layerIdentifier": "layer0",
+          "outputVisibility": "preview|capture",
+          "physicsEnabled": false,
+          "projectionType": "perspective",
+          "tags": [],
+          "transform": {
+            "rx": 0,
+            "ry": 0,
+            "rz": 0,
+            "sx": 1,
+            "sy": 1,
+            "sz": 1,
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "updateSource": "world_tracker",
+          "children": [
+            {
+              "modelName": "focalDistance",
+              "name": "Focal Distance",
+              "identifier": "focalDistance:82-075e0928-f265-4300-9fb0-b80eaa7fda8c",
+              "animationMask": {
+                "position": false,
+                "rotation": false,
+                "scale": false
+              },
+              "cameraVisibility": "back|front",
+              "hidden": false,
+              "layerIdentifier": "layer0",
+              "outputVisibility": "preview|capture",
+              "physicsEnabled": false,
+              "tags": [],
+              "transform": {
+                "rx": 0,
+                "ry": 0,
+                "rz": 0,
+                "sx": 1,
+                "sy": 1,
+                "sz": 1,
+                "x": 0,
+                "y": 0,
+                "z": -0.5361266732215881
+              },
+              "children": [
+                {
+                  "modelName": "ambient_light_source_model",
+                  "name": "ambientLight0",
+                  "identifier": "ambient_light_source_model:88-075e0928-f265-4300-9fb0-b80eaa7fda8c",
+                  "animationMask": {
+                    "position": false,
+                    "rotation": false,
+                    "scale": false
+                  },
+                  "cameraVisibility": "back|front",
+                  "color": "0xffffffff",
+                  "hidden": false,
+                  "intensity": 0.20000000298023224,
+                  "layerIdentifier": "layer0",
+                  "outputVisibility": "preview|capture",
+                  "physicsEnabled": false,
+                  "tags": [],
+                  "transform": {
+                    "rx": 0,
+                    "ry": 0,
+                    "rz": 0,
+                    "sx": 1,
+                    "sy": 1,
+                    "sz": 1,
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "modelName": "directional_light_source_model",
+                  "name": "directionalLight0",
+                  "identifier": "directional_light_source_model:90-075e0928-f265-4300-9fb0-b80eaa7fda8c",
+                  "animationMask": {
+                    "position": false,
+                    "rotation": false,
+                    "scale": false
+                  },
+                  "cameraVisibility": "back|front",
+                  "castShadow": false,
+                  "color": "0xffffffff",
+                  "hidden": false,
+                  "intensity": 0.800000011920929,
+                  "layerIdentifier": "layer0",
+                  "outputVisibility": "preview|capture",
+                  "physicsEnabled": false,
+                  "shadowBias": 0,
+                  "shadowFrustumDepth": 1,
+                  "shadowFrustumSize": 0.5,
+                  "shadowNear": 0.05,
+                  "shadowSoftness": 0,
+                  "shadowStrength": 1,
+                  "shadowTextureSize": 512,
+                  "tags": [],
+                  "transform": {
+                    "rx": -0.7853981633974483,
+                    "ry": 0.08726646259971647,
+                    "rz": 0,
+                    "sx": 1,
+                    "sy": 1,
+                    "sz": 1,
+                    "x": 0.03,
+                    "y": 0.25,
+                    "z": 0.3
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "modelName": "microphone_model",
+          "name": "Microphone",
+          "identifier": "microphone_model:84-075e0928-f265-4300-9fb0-b80eaa7fda8c",
+          "animationMask": {
+            "position": false,
+            "rotation": false,
+            "scale": false
+          },
+          "cameraVisibility": "back|front",
+          "disabled": false,
+          "hidden": false,
+          "layerIdentifier": "layer0",
+          "outputVisibility": "preview|capture",
+          "physicsEnabled": false,
+          "previewAudioSource": "default",
+          "tags": [],
+          "transform": {
+            "rx": 0,
+            "ry": 0,
+            "rz": 0,
+            "sx": 1,
+            "sy": 1,
+            "sz": 1,
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        }
+      ]
+    },
+    {
+      "modelName": "moving_target_tracker_model",
+      "name": "targetTracker0",
+      "identifier": "moving_target_tracker_model:322-075e0928-f265-4300-9fb0-b80eaa7fda8c",
+      "animationMask": {
+        "position": false,
+        "rotation": false,
+        "scale": false
+      },
+      "cameraVisibility": "back",
+      "depth": 0.10000000149011612,
+      "height": 0.10000000149011612,
+      "hidden": false,
+      "isStaticTarget": true,
+      "isTargetTextureIdentifierEnabled": false,
+      "largerArcEndX": 512,
+      "largerArcEndY": 512,
+      "largerRadius": 0.10000000149011612,
+      "layerIdentifier": "layer0",
+      "outputVisibility": "preview|capture",
+      "patternType": "plane",
+      "physicsEnabled": false,
+      "shouldRecognize": false,
+      "smallerArcEndX": 512,
+      "smallerArcEndY": 512,
+      "smallerRadius": 0.10000000149011612,
+      "tags": [],
+      "targetTextureIdentifier": "texture:10763-b7e3066e-19ae-4606-b989-5a5ec637a0a6",
+      "targetWidth": 0.30000001192092896,
+      "transform": {
+        "rx": 0,
+        "ry": 0,
+        "rz": 0,
+        "sx": 1,
+        "sy": 1,
+        "sz": 1,
+        "x": -0.07535697519779205,
+        "y": 0.11181658506393433,
+        "z": -1.1233071088790894
+      },
+      "upgradedFromFixed": false,
+      "width": 0.10000000149011612,
+      "children": [
+        {
+          "modelName": "sceneObject",
+          "name": "socialmedia",
+          "identifier": "sceneObject:998-075e0928-f265-4300-9fb0-b80eaa7fda8c",
+          "animationMask": {
+            "position": false,
+            "rotation": false,
+            "scale": false
+          },
+          "cameraVisibility": "back|front",
+          "hidden": false,
+          "layerIdentifier": "layer0",
+          "outputVisibility": "preview|capture",
+          "physicsEnabled": false,
+          "shapeColor": "0xff808080",
+          "shapeType": 0,
+          "tags": [],
+          "transform": {
+            "rx": 0,
+            "ry": 0,
+            "rz": 0,
+            "sx": 0.9949995279312134,
+            "sy": 0.5146999955177307,
+            "sz": 0.000009949995728675276,
+            "x": 0.2808000147342682,
+            "y": 0.2373500019311905,
+            "z": -0.019009999930858612
+          },
+          "children": [
+            {
+              "modelName": "plane",
+              "name": "twitter_logo",
+              "identifier": "plane:6691-075e0928-f265-4300-9fb0-b80eaa7fda8c",
+              "animationMask": {
+                "position": false,
+                "rotation": false,
+                "scale": false
+              },
+              "cameraVisibility": "back|front",
+              "castShadow": false,
+              "hidden": false,
+              "horizontalAlignment": "center",
+              "horizontalSpacing": 0,
+              "isMaterialIdentifierEnabled": true,
+              "layerIdentifier": "layer1",
+              "materialIdentifier": "defaultMaterial:7262-075e0928-f265-4300-9fb0-b80eaa7fda8c",
+              "outputVisibility": "preview|capture",
+              "physicsEnabled": false,
+              "receiveShadow": false,
+              "renderPass": "main_scene",
+              "tags": [],
+              "textureHeight": 0.1,
+              "textureWidth": 0.1,
+              "transform": {
+                "rx": 0,
+                "ry": 0,
+                "rz": 0,
+                "sx": 1.596669316291809,
+                "sy": 1.8533834218978882,
+                "sz": 1.4712516069412231,
+                "x": -0.2862258553504944,
+                "y": -0.8668118715286255,
+                "z": 1577.8828125
+              },
+              "verticalAlignment": "center",
+              "verticalSpacing": 0
+            },
+            {
+              "modelName": "plane",
+              "name": "instagram_logo",
+              "identifier": "plane46982-af1908b2-4186-45f0-96d0-156722f78eae",
+              "animationMask": {
+                "position": false,
+                "rotation": false,
+                "scale": false
+              },
+              "cameraVisibility": "back|front",
+              "castShadow": false,
+              "hidden": false,
+              "horizontalAlignment": "center",
+              "horizontalSpacing": 0,
+              "isMaterialIdentifierEnabled": true,
+              "layerIdentifier": "layer1",
+              "materialIdentifier": "defaultMaterial:7504-075e0928-f265-4300-9fb0-b80eaa7fda8c",
+              "outputVisibility": "preview|capture",
+              "physicsEnabled": false,
+              "receiveShadow": false,
+              "renderPass": "main_scene",
+              "tags": [],
+              "textureHeight": 0.1,
+              "textureWidth": 0.1,
+              "transform": {
+                "rx": 0,
+                "ry": 0,
+                "rz": 0,
+                "sx": 1.6268092393875122,
+                "sy": 2.068449020385742,
+                "sz": 1.61257004737854,
+                "x": -0.026845887303352356,
+                "y": -0.38832327723503113,
+                "z": 1577.8828125
+              },
+              "verticalAlignment": "center",
+              "verticalSpacing": 0
+            },
+            {
+              "modelName": "plane",
+              "name": "website_logo",
+              "identifier": "plane45807-af1908b2-4186-45f0-96d0-156722f78eae",
+              "animationMask": {
+                "position": false,
+                "rotation": false,
+                "scale": false
+              },
+              "cameraVisibility": "back|front",
+              "castShadow": false,
+              "hidden": false,
+              "horizontalAlignment": "center",
+              "horizontalSpacing": 0,
+              "isMaterialIdentifierEnabled": true,
+              "layerIdentifier": "layer1",
+              "materialIdentifier": "defaultMaterial16751-af1908b2-4186-45f0-96d0-156722f78eae",
+              "outputVisibility": "preview|capture",
+              "physicsEnabled": false,
+              "receiveShadow": false,
+              "renderPass": "main_scene",
+              "tags": [],
+              "textureHeight": 0.1,
+              "textureWidth": 0.1,
+              "transform": {
+                "rx": 0,
+                "ry": 0,
+                "rz": 0,
+                "sx": 1.6657845973968506,
+                "sy": 1.9561748504638672,
+                "sz": 1.3909120559692383,
+                "x": -0.5378444790840149,
+                "y": -0.39891645312309265,
+                "z": 1577.8828125
+              },
+              "verticalAlignment": "center",
+              "verticalSpacing": 0
+            }
+          ]
+        },
+        {
+          "modelName": "plane",
+          "name": "web scrolling",
+          "identifier": "plane:78774-af1908b2-4186-45f0-96d0-156722f78eae",
+          "animationMask": {
+            "position": false,
+            "rotation": false,
+            "scale": false
+          },
+          "cameraVisibility": "back|front",
+          "castShadow": false,
+          "hidden": false,
+          "horizontalAlignment": "center",
+          "horizontalSpacing": 0,
+          "isMaterialIdentifierEnabled": true,
+          "layerIdentifier": "layer1",
+          "materialIdentifier": "defaultMaterial:79920-af1908b2-4186-45f0-96d0-156722f78eae",
+          "outputVisibility": "preview|capture",
+          "physicsEnabled": false,
+          "receiveShadow": false,
+          "renderPass": "main_scene",
+          "tags": [],
+          "textureHeight": 0.1,
+          "textureWidth": 0.1,
+          "transform": {
+            "rx": 0,
+            "ry": 0,
+            "rz": 0,
+            "sx": 3.6798877716064453,
+            "sy": 2.5544469356536865,
+            "sz": 1.6756020784378052,
+            "x": -0.35556238889694214,
+            "y": -0.18101218342781067,
+            "z": 0
+          },
+          "verticalAlignment": "center",
+          "verticalSpacing": 0
+        },
+        {
+          "modelName": "plane",
+          "name": "insta page",
+          "identifier": "plane:81935-af1908b2-4186-45f0-96d0-156722f78eae",
+          "animationMask": {
+            "position": false,
+            "rotation": false,
+            "scale": false
+          },
+          "cameraVisibility": "back|front",
+          "castShadow": false,
+          "hidden": false,
+          "horizontalAlignment": "center",
+          "horizontalSpacing": 0,
+          "isMaterialIdentifierEnabled": true,
+          "layerIdentifier": "layer1",
+          "materialIdentifier": "defaultMaterial:82623-af1908b2-4186-45f0-96d0-156722f78eae",
+          "outputVisibility": "preview|capture",
+          "physicsEnabled": false,
+          "receiveShadow": false,
+          "renderPass": "main_scene",
+          "tags": [],
+          "textureHeight": 0.1,
+          "textureWidth": 0.1,
+          "transform": {
+            "rx": 0,
+            "ry": 0,
+            "rz": 0,
+            "sx": 4.77265739440918,
+            "sy": 4.604763031005859,
+            "sz": 1.3488056659698486,
+            "x": 0.4942283034324646,
+            "y": 0.007216423749923706,
+            "z": 0
+          },
+          "verticalAlignment": "center",
+          "verticalSpacing": 0
+        },
+        {
+          "modelName": "plane",
+          "name": "twitter page",
+          "identifier": "plane:85813-af1908b2-4186-45f0-96d0-156722f78eae",
+          "animationMask": {
+            "position": false,
+            "rotation": false,
+            "scale": false
+          },
+          "cameraVisibility": "back|front",
+          "castShadow": false,
+          "hidden": false,
+          "horizontalAlignment": "center",
+          "horizontalSpacing": 0,
+          "isMaterialIdentifierEnabled": true,
+          "layerIdentifier": "layer1",
+          "materialIdentifier": "defaultMaterial:86501-af1908b2-4186-45f0-96d0-156722f78eae",
+          "outputVisibility": "preview|capture",
+          "physicsEnabled": false,
+          "receiveShadow": false,
+          "renderPass": "main_scene",
+          "tags": [],
+          "textureHeight": 0.1,
+          "textureWidth": 0.1,
+          "transform": {
+            "rx": 0,
+            "ry": 0,
+            "rz": 0,
+            "sx": 6.393256664276123,
+            "sy": 5.150207996368408,
+            "sz": 2.157167911529541,
+            "x": 0.012097209692001343,
+            "y": -0.4569668769836426,
+            "z": 0
+          },
+          "verticalAlignment": "center",
+          "verticalSpacing": 0
+        }
+      ]
+    }
+  ]
+}
