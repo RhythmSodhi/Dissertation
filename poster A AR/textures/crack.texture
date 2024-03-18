@@ -1,0 +1,36 @@
+{
+  "modelName": "texture",
+  "name": "crack",
+  "identifier": "texture:1783-07d3ebdb-34cc-4e72-a828-a9f08162cdea",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "3e33a029bdc024534d6317a4c29db0a2",
+  "assetLocator": "textures/crack.png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 1024,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 1024,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "3e33a029bdc024534d6317a4c29db0a2",
+      "colorCount": 260,
+      "detectedAlphaChannel": "eight_bit_full_range",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 1.0391631239461567,
+      "pixelsHigh": 1024,
+      "pixelsWide": 1024
+    }
+  ]
+}
