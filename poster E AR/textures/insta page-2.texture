@@ -1,0 +1,36 @@
+{
+  "modelName": "texture",
+  "name": "insta page",
+  "identifier": "texture:9225-b7e3066e-19ae-4606-b989-5a5ec637a0a6",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "a985d8b35ecaeb6240db161bf18c5d16",
+  "assetLocator": "textures/insta page.png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 1024,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 1024,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "a985d8b35ecaeb6240db161bf18c5d16",
+      "colorCount": 148488,
+      "detectedAlphaChannel": "eight_bit_full_range",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 7.036872006886832,
+      "pixelsHigh": 1024,
+      "pixelsWide": 1024
+    }
+  ]
+}
