@@ -1,0 +1,36 @@
+{
+  "modelName": "texture",
+  "name": "tap the screen",
+  "identifier": "texture:1361-c9933d99-5569-43b3-a3a3-15ddbf52efe3",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "63e87f6786d2d350a0dd0c9c17c5dfd3",
+  "assetLocator": "textures/tap the screen.png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 1024,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 1024,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "63e87f6786d2d350a0dd0c9c17c5dfd3",
+      "colorCount": 24784,
+      "detectedAlphaChannel": "no_alpha",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 10.115748738128069,
+      "pixelsHigh": 1024,
+      "pixelsWide": 1024
+    }
+  ]
+}

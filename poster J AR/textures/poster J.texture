@@ -1,0 +1,36 @@
+{
+  "modelName": "texture",
+  "name": "poster J",
+  "identifier": "texture:431-1f627d28-c31f-4ef4-992e-14083909029e",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "dac93ad6aeb7f2a0fed27029fd7a3bd8",
+  "assetLocator": "textures/poster J.png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 1024,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 1024,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "dac93ad6aeb7f2a0fed27029fd7a3bd8",
+      "colorCount": 115692,
+      "detectedAlphaChannel": "no_alpha",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 10.934359422579714,
+      "pixelsHigh": 1024,
+      "pixelsWide": 1024
+    }
+  ]
+}

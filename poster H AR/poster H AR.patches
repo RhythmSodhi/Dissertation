@@ -1,0 +1,108 @@
+{
+  "id": "2d116711ade904cbd931d6497a8a1d230",
+  "revision": "794d116711ade904cbd931d6497a8a1d230",
+  "version": {
+    "dev": 0,
+    "patch": 0,
+    "prod": 175
+  },
+  "creatorIdentifier": "com.facebook.arstudio.skylight",
+  "creatorPlatform": "macosx",
+  "creatorFileVersion": {
+    "dev": 0,
+    "patch": 0,
+    "prod": 175
+  },
+  "visual_programming": {
+    "connections": [
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:1394-d116711a-de90-4cbd-931d-6497a8a1d230",
+        "fromPatch": "template_patch_model:1390-d116711a-de90-4cbd-931d-6497a8a1d230",
+        "fromPort": "100",
+        "toPatch": "template_patch_model:1392-d116711a-de90-4cbd-931d-6497a8a1d230",
+        "toPort": "1"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:1396-d116711a-de90-4cbd-931d-6497a8a1d230",
+        "fromPatch": "template_patch_model:1392-d116711a-de90-4cbd-931d-6497a8a1d230",
+        "fromPort": "100",
+        "toPatch": "producer_patch_model:1388-d116711a-de90-4cbd-931d-6497a8a1d230",
+        "toPort": "100"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:1528-d116711a-de90-4cbd-931d-6497a8a1d230",
+        "fromPatch": "producer_patch_model:1388-d116711a-de90-4cbd-931d-6497a8a1d230",
+        "fromPort": "1001",
+        "toPatch": "consumer_patch_model:1526-d116711a-de90-4cbd-931d-6497a8a1d230",
+        "toPort": "1"
+      }
+    ],
+    "graphs": [
+      {
+        "modelName": "patch_graph",
+        "identifier": "patch_graph:94-d116711a-de90-4cbd-931d-6497a8a1d230",
+        "subpatches": [
+          "consumer_patch_model:1526-d116711a-de90-4cbd-931d-6497a8a1d230",
+          "producer_patch_model:1388-d116711a-de90-4cbd-931d-6497a8a1d230",
+          "template_patch_model:1390-d116711a-de90-4cbd-931d-6497a8a1d230",
+          "template_patch_model:1392-d116711a-de90-4cbd-931d-6497a8a1d230"
+        ]
+      }
+    ],
+    "patches": [
+      {
+        "modelName": "consumer_patch_model",
+        "name": "audioPlaybackController0",
+        "identifier": "consumer_patch_model:1526-d116711a-de90-4cbd-931d-6497a8a1d230",
+        "object": "playback_controller_model:551-d116711a-de90-4cbd-931d-6497a8a1d230",
+        "objectProperty": "audio_playback_controller_play",
+        "position": [
+          668,
+          92
+        ]
+      },
+      {
+        "modelName": "producer_patch_model",
+        "name": "targetTracker0",
+        "identifier": "producer_patch_model:1388-d116711a-de90-4cbd-931d-6497a8a1d230",
+        "object": "moving_target_tracker_model:321-d116711a-de90-4cbd-931d-6497a8a1d230",
+        "position": [
+          499.825,
+          95.14999999999998
+        ]
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Target Finder",
+        "identifier": "template_patch_model:1390-d116711a-de90-4cbd-931d-6497a8a1d230",
+        "position": [
+          -7.175000000000011,
+          95.14999999999998
+        ],
+        "templateId": "builtin.unifiedTargetFinder"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Target Select",
+        "identifier": "template_patch_model:1392-d116711a-de90-4cbd-931d-6497a8a1d230",
+        "position": [
+          199.825,
+          95.14999999999998
+        ],
+        "templateId": "builtin.unifiedTargetPicker",
+        "values": [
+          {
+            "port": "2",
+            "value": {
+              "t": "string",
+              "v": "texture:431-d116711a-de90-4cbd-931d-6497a8a1d230"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
