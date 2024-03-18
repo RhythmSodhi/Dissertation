@@ -1,0 +1,41 @@
+{
+  "modelName": "texture",
+  "name": "poster F video_057",
+  "identifier": "texture:39125-2a783abb-5707-4be2-b6e1-2341c3e72997",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "8fec94c1827e235e291bcd92b2091d87",
+  "assetLocator": "textures/poster F video_057.png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "exportConfigurations": [
+    "textureExportConfig:39581-2a783abb-5707-4be2-b6e1-2341c3e72997",
+    "textureExportConfig:39655-2a783abb-5707-4be2-b6e1-2341c3e72997",
+    "textureExportConfig:39729-2a783abb-5707-4be2-b6e1-2341c3e72997"
+  ],
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 1024,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 1024,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "8fec94c1827e235e291bcd92b2091d87",
+      "colorCount": 61316,
+      "detectedAlphaChannel": "no_alpha",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 11.419918245335904,
+      "pixelsHigh": 1024,
+      "pixelsWide": 1024
+    }
+  ]
+}
