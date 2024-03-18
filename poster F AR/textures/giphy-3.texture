@@ -1,0 +1,41 @@
+{
+  "modelName": "texture",
+  "name": "giphy-3",
+  "identifier": "texture:24901-2a783abb-5707-4be2-b6e1-2341c3e72997",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "83f4b8f9bc38f7a56082e74ba1b5535e",
+  "assetLocator": "textures/giphy-3.png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "exportConfigurations": [
+    "textureExportConfig:30107-2a783abb-5707-4be2-b6e1-2341c3e72997",
+    "textureExportConfig:30123-2a783abb-5707-4be2-b6e1-2341c3e72997",
+    "textureExportConfig:30139-2a783abb-5707-4be2-b6e1-2341c3e72997"
+  ],
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 480,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 480,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "83f4b8f9bc38f7a56082e74ba1b5535e",
+      "colorCount": 26,
+      "detectedAlphaChannel": "one_bit",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 3.025229665296292,
+      "pixelsHigh": 480,
+      "pixelsWide": 480
+    }
+  ]
+}
